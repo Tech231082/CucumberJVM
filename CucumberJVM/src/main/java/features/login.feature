@@ -1,9 +1,11 @@
-Feature: Free CRM login feature
+Feature: HubSpot login feature
 
-Scenario: Free CRM login test scenario
+Scenario: HubSpot login test scenario
 
 Given User is already on login page
 When Title of login page is 
+Then User clicks on login Button
+Then close the browser
 
 
 

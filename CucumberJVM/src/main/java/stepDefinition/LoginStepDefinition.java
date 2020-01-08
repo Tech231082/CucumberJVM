@@ -18,8 +18,8 @@ public class LoginStepDefinition {
 	@Given("^User is already on login page$")
 	public void user_is_alreadyOn_loginPage() {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\mytools\\geckodriver-v0.25.0-win64\\geckodriver.exe");
-		driver=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\mytools\\chromedriver_win32 (1)\\chromedriver.exe");
+		driver=new ChromeDriver();
 		driver.get("https://www.hubspot.com/");
 	}
 	@When("Title of login page is")
@@ -27,6 +27,16 @@ public class LoginStepDefinition {
 	    String title=driver.getTitle();
 	    System.out.println(title);
 	}
+	@Then("User clicks on login Button")
+	public void user_clicks_on_login_Button() {
+	    driver.findElement(By.xpath("//a[@class='cta--secondary cta--small']")).click();
+	}
+	@Then("close the browser")
+	public void cose_the_browser() {
+		System.out.println("closing the browser");
+	    driver.quit();
+	}
+
 
 		
 	
