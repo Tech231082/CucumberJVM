@@ -44,13 +44,29 @@ public class LoginStepDefinition {
 	}
 	@Then("Title of the page is")
 	public void title_of_the_page_is() {
+		WebDriverWait wait=new WebDriverWait(driver,15);
+		
+		wait.until(ExpectedConditions.titleIs("HubSpot Login"));
+		
 	   System.out.println( driver.getTitle());
 	}
 
 	@Then("User enters id and password")
 	public void user_enters_id_and_password() {
-	    
+	    driver.findElement(By.id("username")).sendKeys("sush.rinwa@gmail.com");
+	    driver.findElement(By.id("password")).sendKeys("Sushila231082");
+	    driver.findElement(By.xpath("//button[@id='loginBtn']")).click();
 	}
+	@Then("User is at home page")
+	public void user_is_at_home_page() {
+	    String title=driver.getTitle();
+	    System.out.println(title);
+	}
+	@Then("User closes the browser")
+	public void user_closes_the_browser() {
+	    driver.close();
+	}
+
 	
 
 

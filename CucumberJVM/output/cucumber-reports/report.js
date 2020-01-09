@@ -59,4 +59,24 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "User is at home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_is_at_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User closes the browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_closes_the_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
 });

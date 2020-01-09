@@ -7,6 +7,8 @@ When Title of login page is
 Then User clicks on login Button
 Then Title of the page is
 Then User enters id and password
+Then User is at home page
+Then User closes the browser
 
 
 
