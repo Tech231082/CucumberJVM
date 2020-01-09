@@ -1,10 +1,15 @@
 package stepDefinition;
 
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -28,14 +33,25 @@ public class LoginStepDefinition {
 	    System.out.println(title);
 	}
 	@Then("User clicks on login Button")
-	public void user_clicks_on_login_Button() {
-	    driver.findElement(By.xpath("//a[@class='cta--secondary cta--small']")).click();
+	public void user_clicks_on_login_Button(){
+		WebDriverWait wait=new WebDriverWait(driver,15);
+		
+	    WebElement ele=driver.findElement(By.xpath("//ul[@class='hsg-nav__group']//li[@class='hsg-nav__group-item hsg-nav__group-item--login']//a[@class='cta--secondary cta--small']"));
+	   // wait.until(ExpectedConditions.elementToBeClickable(ele)).click();
+	    JavascriptExecutor js=(JavascriptExecutor)driver;
+	    js.executeScript("arguments[0].click();", ele);
+	    
 	}
-	@Then("close the browser")
-	public void cose_the_browser() {
-		System.out.println("closing the browser");
-	    driver.quit();
+	@Then("Title of the page is")
+	public void title_of_the_page_is() {
+	   System.out.println( driver.getTitle());
 	}
+
+	@Then("User enters id and password")
+	public void user_enters_id_and_password() {
+	    
+	}
+	
 
 
 		
