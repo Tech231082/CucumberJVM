@@ -1,0 +1,328 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-10T18:21:33.288Z",
+        "line": 26,
+        "name": "HubSpot login test scenario",
+        "description": "",
+        "id": "hubspot-login-feature;hubspot-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11116375400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_alreadyOn_loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42215600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Title of login page is",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 308933600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4965065600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Title of the page is",
+            "match": {
+              "location": "LoginStepDefinition.title_of_the_page_is()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 873311000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"sush.rinwa@gmail.com\" and \"Sushila231082\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sush.rinwa@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Sushila231082",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_id_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9026500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is at home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_at_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 297897500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User closes the browser",
+            "match": {
+              "location": "LoginStepDefinition.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-10T18:21:50.939Z",
+        "line": 27,
+        "name": "HubSpot login test scenario",
+        "description": "",
+        "id": "hubspot-login-feature;hubspot-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10303782700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_alreadyOn_loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45411700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Title of login page is",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165734200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4906293600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Title of the page is",
+            "match": {
+              "location": "LoginStepDefinition.title_of_the_page_is()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 780565200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"myname@gmail.com\" and \"Sushila231082\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "myname@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Sushila231082",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_id_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9339900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is at home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_at_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175655300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User closes the browser",
+            "match": {
+              "location": "LoginStepDefinition.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-10T18:22:07.332Z",
+        "line": 28,
+        "name": "HubSpot login test scenario",
+        "description": "",
+        "id": "hubspot-login-feature;hubspot-login-test-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10718897300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_alreadyOn_loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93325800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Title of login page is",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274535300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4789294800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Title of the page is",
+            "match": {
+              "location": "LoginStepDefinition.title_of_the_page_is()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 776996000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"gelio@gmail.com\" and \"Sushila231082\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gelio@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Sushila231082",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_id_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12282500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is at home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_at_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 186580600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User closes the browser",
+            "match": {
+              "location": "LoginStepDefinition.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HubSpot login feature",
+    "description": "",
+    "id": "hubspot-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/login.feature",
+    "tags": []
+  }
+]

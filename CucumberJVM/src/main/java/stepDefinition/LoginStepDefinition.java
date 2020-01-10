@@ -51,10 +51,10 @@ public class LoginStepDefinition {
 	   System.out.println( driver.getTitle());
 	}
 
-	@Then("User enters id and password")
-	public void user_enters_id_and_password() {
-	    driver.findElement(By.id("username")).sendKeys("sush.rinwa@gmail.com");
-	    driver.findElement(By.id("password")).sendKeys("Sushila231082");
+	@Then("User enters \"(.*)\" and \"(.*)\"$")
+	public void user_enters_id_and_password(String username,String password) {
+	    driver.findElement(By.id("username")).sendKeys(username);
+	    driver.findElement(By.id("password")).sendKeys(password);
 	    driver.findElement(By.xpath("//button[@id='loginBtn']")).click();
 	}
 	@Then("User is at home page")

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="50.897462">
+<testcase classname="HubSpot login feature" name="HubSpot login test scenario" time="17.649068">
+<system-out><![CDATA[Given User is already on login page.........................................passed
+When Title of login page is.................................................passed
+Then User clicks on login Button............................................passed
+Then Title of the page is...................................................passed
+Then User enters "sush.rinwa@gmail.com" and "Sushila231082".................passed
+Then User is at home page...................................................passed
+Then User closes the browser................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HubSpot login feature" name="HubSpot login test scenario 2" time="16.391313">
+<system-out><![CDATA[Given User is already on login page.........................................passed
+When Title of login page is.................................................passed
+Then User clicks on login Button............................................passed
+Then Title of the page is...................................................passed
+Then User enters "myname@gmail.com" and "Sushila231082".....................passed
+Then User is at home page...................................................passed
+Then User closes the browser................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HubSpot login feature" name="HubSpot login test scenario 3" time="16.857081">
+<system-out><![CDATA[Given User is already on login page.........................................passed
+When Title of login page is.................................................passed
+Then User clicks on login Button............................................passed
+Then Title of the page is...................................................passed
+Then User enters "gelio@gmail.com" and "Sushila231082"......................passed
+Then User is at home page...................................................passed
+Then User closes the browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
