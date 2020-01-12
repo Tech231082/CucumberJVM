@@ -3,326 +3,160 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-01-10T18:21:33.288Z",
-        "line": 26,
-        "name": "HubSpot login test scenario",
+        "start_timestamp": "2020-01-12T01:35:37.390Z",
+        "line": 4,
+        "name": "Login with correct username and correct password",
         "description": "",
-        "id": "hubspot-login-feature;hubspot-login-test-scenario;;2",
+        "id": "hubspot-login-feature--testing;login-with-correct-username-and-correct-password",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 11116375400,
-              "status": "passed"
+              "duration": 1206400,
+              "status": "skipped"
             },
-            "line": 15,
-            "name": "User is already on login page",
+            "line": 6,
+            "name": "This is a valid test case",
             "match": {
-              "location": "LoginStepDefinition.user_is_alreadyOn_loginPage()"
+              "location": "TaggingStepDefinition.this_is_a_valid_test_case()"
             },
             "keyword": "Given "
-          },
+          }
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 42215600,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Title of login page is",
-            "match": {
-              "location": "LoginStepDefinition.title_of_login_page_is()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 308933600,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User clicks on login Button",
-            "match": {
-              "location": "LoginStepDefinition.user_clicks_on_login_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4965065600,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Title of the page is",
-            "match": {
-              "location": "LoginStepDefinition.title_of_the_page_is()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 873311000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User enters \"sush.rinwa@gmail.com\" and \"Sushila231082\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "sush.rinwa@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Sushila231082",
-                  "offset": 40
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_id_and_password(String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9026500,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "User is at home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_at_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 297897500,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User closes the browser",
-            "match": {
-              "location": "LoginStepDefinition.user_closes_the_browser()"
-            },
-            "keyword": "Then "
+            "name": "@SmokeTest"
           }
         ]
       },
       {
-        "start_timestamp": "2020-01-10T18:21:50.939Z",
-        "line": 27,
-        "name": "HubSpot login test scenario",
+        "start_timestamp": "2020-01-12T01:35:37.419Z",
+        "line": 9,
+        "name": "Login with correct username and incorrect password",
         "description": "",
-        "id": "hubspot-login-feature;hubspot-login-test-scenario;;3",
+        "id": "hubspot-login-feature--testing;login-with-correct-username-and-incorrect-password",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10303782700,
-              "status": "passed"
+              "duration": 464200,
+              "status": "skipped"
             },
-            "line": 15,
-            "name": "User is already on login page",
+            "line": 11,
+            "name": "This is a invalid test case",
             "match": {
-              "location": "LoginStepDefinition.user_is_alreadyOn_loginPage()"
+              "location": "TaggingStepDefinition.this_is_a_invalid_test_case()"
             },
             "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
           },
           {
-            "result": {
-              "duration": 45411700,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Title of login page is",
-            "match": {
-              "location": "LoginStepDefinition.title_of_login_page_is()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 165734200,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User clicks on login Button",
-            "match": {
-              "location": "LoginStepDefinition.user_clicks_on_login_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4906293600,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Title of the page is",
-            "match": {
-              "location": "LoginStepDefinition.title_of_the_page_is()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 780565200,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User enters \"myname@gmail.com\" and \"Sushila231082\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "myname@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Sushila231082",
-                  "offset": 36
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_id_and_password(String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9339900,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "User is at home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_at_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 175655300,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User closes the browser",
-            "match": {
-              "location": "LoginStepDefinition.user_closes_the_browser()"
-            },
-            "keyword": "Then "
+            "name": "@RegressionTest"
           }
         ]
       },
       {
-        "start_timestamp": "2020-01-10T18:22:07.332Z",
-        "line": 28,
-        "name": "HubSpot login test scenario",
+        "start_timestamp": "2020-01-12T01:35:37.421Z",
+        "line": 19,
+        "name": "Login with incorrect username and incorrect password",
         "description": "",
-        "id": "hubspot-login-feature;hubspot-login-test-scenario;;4",
+        "id": "hubspot-login-feature--testing;login-with-incorrect-username-and-incorrect-password",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10718897300,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User is already on login page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_alreadyOn_loginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 93325800,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Title of login page is",
-            "match": {
-              "location": "LoginStepDefinition.title_of_login_page_is()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 274535300,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User clicks on login Button",
-            "match": {
-              "location": "LoginStepDefinition.user_clicks_on_login_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4789294800,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Title of the page is",
-            "match": {
-              "location": "LoginStepDefinition.title_of_the_page_is()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 776996000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User enters \"gelio@gmail.com\" and \"Sushila231082\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "gelio@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Sushila231082",
-                  "offset": 35
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_id_and_password(String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 12282500,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "User is at home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_at_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 186580600,
-              "status": "passed"
+              "duration": 664800,
+              "status": "skipped"
             },
             "line": 21,
-            "name": "User closes the browser",
+            "name": "This is a invalid test case",
             "match": {
-              "location": "LoginStepDefinition.user_closes_the_browser()"
+              "location": "TaggingStepDefinition.this_is_a_invalid_test_case()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-12T01:35:37.425Z",
+        "line": 24,
+        "name": "Login with blank username and correct password",
+        "description": "",
+        "id": "hubspot-login-feature--testing;login-with-blank-username-and-correct-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 410400,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "This is a invalid test case",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_invalid_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-12T01:35:37.427Z",
+        "line": 29,
+        "name": "Login with correct username and blank password",
+        "description": "",
+        "id": "hubspot-login-feature--testing;login-with-correct-username-and-blank-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 310200,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "This is a invalid test case",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_invalid_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
           }
         ]
       }
     ],
-    "name": "HubSpot login feature",
+    "name": "HubSpot login feature  testing",
     "description": "",
-    "id": "hubspot-login-feature",
+    "id": "hubspot-login-feature--testing",
     "keyword": "Feature",
-    "uri": "file:src/main/java/features/login.feature",
+    "uri": "file:src/main/java/features/tagging.feature",
     "tags": []
   }
 ]
