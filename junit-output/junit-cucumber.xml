@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.032197">
+<testcase classname="Login hooks feature" name="HubSpot login test scenario" time="0.028607">
+<system-out><![CDATA[Given User is on login page.................................................passed
+Then User clicks on login button............................................passed
+Then Enters credentials.....................................................passed
+Then Logins into system.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login hooks feature" name="HubSpot home Page scenario" time="0.00359">
+<system-out><![CDATA[Given User is on home Page..................................................passed
+Then User gets title of the page............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
