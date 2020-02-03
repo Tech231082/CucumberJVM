@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-14T17:55:24.764Z",
+        "before": [
+          {
+            "result": {
+              "duration": 621199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDifinition.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "HubSpot login test scenario",
+        "description": "",
+        "id": "login-hooks-feature;hubspot-login-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 38900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDifinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1495600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on login page",
+            "match": {
+              "location": "HooksStepDifinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 613900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "HooksStepDifinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 566300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enters credentials",
+            "match": {
+              "location": "HooksStepDifinition.enters_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 574600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Logins into system",
+            "match": {
+              "location": "HooksStepDifinition.logins_into_system()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-14T17:55:24.795Z",
+        "before": [
+          {
+            "result": {
+              "duration": 66200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDifinition.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDifinition.setUpLocal()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "HubSpot home Page scenario",
+        "description": "",
+        "id": "login-hooks-feature;hubspot-home-page-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 30400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDifinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 516500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on home Page",
+            "match": {
+              "location": "HooksStepDifinition.user_is_on_home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 464899,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User gets title of the page",
+            "match": {
+              "location": "HooksStepDifinition.user_gets_title_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Second"
+          }
+        ]
+      }
+    ],
+    "name": "Login hooks feature",
+    "description": "",
+    "id": "login-hooks-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/hooks.feature",
+    "tags": []
+  }
+]
